@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keyboard Lock Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff; --text: #1b2330; --muted: #5b6577; --accent: #264cb4; --rule: #e3e8f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #11161f; --text: #e6ebf3; --muted: #9aa5b8; --accent: #8fb0ff; --rule: #273041; }
+  }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2rem; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Keyboard Lock Privacy Policy</h1>
+  <p class="meta">Keyboard Lock, by ByteAcre &middot; Effective 10 November 2026 (version 1.0)</p>
+
+  <p>Keyboard Lock is a Windows app that locks your keyboard (and, with Keyboard Lock Pro, your mouse and touchpad)
+  so you can clean them, or keep a cat or a child from typing. This policy explains what information the app uses and
+  what it does with it. In short: <strong>Keyboard Lock never records, stores or sends what you type, and it does not
+  collect, send or share any of your data.</strong> Everything stays on your PC.</p>
+
+  <h2>How the app uses your keyboard and mouse</h2>
+  <ul>
+    <li><strong>Keyboard.</strong> To work, Keyboard Lock watches key presses on your PC (a Windows "keyboard hook").
+      It uses them only to notice its own lock shortcut (for example Ctrl + Alt + Shift + L) and, while the keyboard is locked,
+      to block keys and notice the unlock combination (for example holding Ctrl + Alt + U). Key presses are never
+      written to a file, never kept after they have been checked, and never sent anywhere.</li>
+    <li><strong>Cat guard (optional, Pro).</strong> If you turn it on, the app looks at the timing of key presses
+      (how many keys go down at the same moment) to recognise a cat or a child mashing the keys. For this it keeps the
+      times of the last few key presses in memory for about 1.5 seconds. It does not keep the text you type.</li>
+    <li><strong>Mouse and touchpad (Pro).</strong> While you have locked them, the app blocks mouse movement, clicks
+      and scrolling. It does not record where you move or click.</li>
+  </ul>
+
+  <h2>Pro add-on and purchase</h2>
+  <p>Keyboard Lock is free. "Keyboard Lock Pro" is an optional one-time add-on sold in the Microsoft Store. Purchases
+  are made in Microsoft's own purchase window; ByteAcre never sees your payment details. To know whether you own Pro,
+  the app asks the Microsoft Store on your PC for its license. That check is handled by Microsoft under the
+  <a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a>; Keyboard Lock does not send
+  anything about you with it.</p>
+
+  <h2>Information stored on your PC</h2>
+  <p>Keyboard Lock saves the following only on your PC, in the app's own data folder:</p>
+  <ul>
+    <li>your settings: the lock shortcut, the unlock combination, the cleaning time, the safety time limit and the cat
+      guard option;</li>
+    <li>whether you owned Pro at the last license check, so the app works offline;</li>
+    <li>a small log file of what the app did (for example "Locked: Lock keyboard" or "Unlocked: Safety"), which helps
+      with troubleshooting. It never contains the keys you pressed, and it never leaves your PC unless you choose to
+      send it to us.</li>
+  </ul>
+  <p>Uninstalling the app removes its data folder.</p>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>It does not record, store or send keystrokes, text, mouse movements or clicks.</li>
+    <li>It does not send any information to ByteAcre or anyone else. Its only online activity is the Microsoft
+      Store license and purchase check described above.</li>
+    <li>It does not take screenshots or look at what is on your screen.</li>
+    <li>It does not include advertising, analytics or tracking.</li>
+    <li>It does not access your files, contacts, location, camera or microphone.</li>
+  </ul>
+
+  <h2>Start with Windows</h2>
+  <p>With Keyboard Lock Pro you can choose to start the app when you sign in to Windows (it is off until you turn it
+  on). You can turn it off in the app or in Windows Settings &gt; Apps &gt; Startup.</p>
+
+  <h2>Children</h2>
+  <p>Keyboard Lock is often used by parents so a child can watch a video without pressing keys. It does not collect
+  personal information from anyone, including children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or the app: <a href="mailto:byteacre.support@gmail.com">byteacre.support@gmail.com</a></p>
+
+  <footer>&copy; 2026 ByteAcre</footer>
+</main>
+</body>
+</html>
