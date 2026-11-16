@@ -27,7 +27,7 @@
 <body>
 <main>
   <h1>Keyboard Lock Privacy Policy</h1>
-  <p class="meta">Keyboard Lock, by ByteAcre &middot; Effective 10 November 2026 (version 1.0)</p>
+  <p class="meta">Keyboard Lock, by ByteAcre &middot; Effective 16 November 2026 (version 1.1)</p>
 
   <p>Keyboard Lock is a Windows app that locks your keyboard (and, with Keyboard Lock Pro, your mouse and touchpad)
   so you can clean them, or keep a cat or a child from typing. This policy explains what information the app uses and
@@ -45,6 +45,13 @@
       times of the last few key presses in memory for about 1.5 seconds. It does not keep the text you type.</li>
     <li><strong>Mouse and touchpad (Pro).</strong> While you have locked them, the app blocks mouse movement, clicks
       and scrolling. It does not record where you move or click.</li>
+    <li><strong>Game keys (optional, Pro).</strong> If you turn it on, the app checks about once a second which
+      window is in front: its size, whether it has a title bar, and the file name of its program (for example
+      "game.exe"), to know whether a game is in front. While one is, it blocks the Windows key (and Alt + Tab, if you
+      chose that). This information is used at that moment and not kept; only the program names you add yourself are
+      saved in your settings.</li>
+    <li><strong>Schedule (optional, Pro).</strong> The app locks the keyboard at the times you set. Those times are
+      saved in your settings.</li>
   </ul>
 
   <h2>Pro add-on and purchase</h2>
@@ -58,7 +65,10 @@
   <p>Keyboard Lock saves the following only on your PC, in the app's own data folder:</p>
   <ul>
     <li>your settings: the lock shortcut, the unlock combination, the cleaning time, the safety time limit and the cat
-      guard option;</li>
+      guard, game keys and schedule options (including the program names and times you add);</li>
+    <li>with Pro: how many times cat guard locked the keyboard ("paw attacks stopped"), and, unless you turn it off, a
+      history of locks: when each lock started, how long it lasted, what was locked, how it was started and how it
+      ended. The history never contains the keys you pressed. "Clear history" in the app deletes it;</li>
     <li>whether you owned Pro at the last license check, so the app works offline;</li>
     <li>a small log file of what the app did (for example "Locked: Lock keyboard" or "Unlocked: Safety"), which helps
       with troubleshooting. It never contains the keys you pressed, and it never leaves your PC unless you choose to
@@ -71,7 +81,8 @@
     <li>It does not record, store or send keystrokes, text, mouse movements or clicks.</li>
     <li>It does not send any information to ByteAcre or anyone else. Its only online activity is the Microsoft
       Store license and purchase check described above.</li>
-    <li>It does not take screenshots or look at what is on your screen.</li>
+    <li>It does not take screenshots or look at what is on your screen (game keys only checks the size and program of
+      the window in front, as described above).</li>
     <li>It does not include advertising, analytics or tracking.</li>
     <li>It does not access your files, contacts, location, camera or microphone.</li>
   </ul>
